@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore para proyectos Unity
+# Coloca este archivo en la RAÍZ de tu proyecto (misma carpeta que Assets/)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Carpetas temporales de Unity (aquí está tu error)
+[Tt]emp/
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Archivos de caché y lock
+*.lock
+UnityLockfile
+
+# Archivos de Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Archivos de Unity que se regeneran automáticamente
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.meta~ 
+
+# Asset Store y paquetes descargados (pesan mucho y se pueden volver a descargar)
+[Aa]ssets/[Aa]sset[Ss]tore*/
+
+# Carpetas de crash y backups
+[Cc]rash[Rr]eporter/
+BurstDebugInformation_DoNotShip/
+BackUpThisFolder_ButDontShipItWithYourGame/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LO QUE SÍ SE SUBE (no se ignora):
+#   Assets/          → todos tus scripts, modelos, audio, etc.
+#   ProjectSettings/ → configuración del proyecto
+#   Packages/        → manifest de paquetes
+#   docs/            → tu build de WebGL para GitHub Pages
+# ─────────────────────────────────────────────────────────────────────────────
